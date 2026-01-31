@@ -10,3 +10,31 @@ if username == correct_username and password == correct_password:
     print("Login Successful ")
 else:
     print("Invalid Credentials")
+    
+# Student Result Management System 
+
+name= input("Enter student name:")
+roll_no=int(input("Enter roll no:"))
+
+subject1=int(input("Enter subject 1 marks:"))
+subject2=int(input("Enter subject 2 marks:"))
+subject3=int(input("Enter subject 3 marks:"))
+subject4=int(input("Enter subject 4 marks:"))
+
+total=subject1+subject2+subject3+subject4
+percentage=total/4
+if percentage>=75:
+    grade="A"
+elif percentage>=60:
+    grade="B"
+elif percentage>=40:
+    grade="C"
+else:
+    grade="Fail"
+
+print("STUDENT RESULT")
+print(f"Name        : {name}")
+print(f"Roll No     : {roll_no}")
+print(f"Total Marks : {total}")
+print(f"Percentage  : {percentage}%")
+print(f"Grade       : {grade}")
