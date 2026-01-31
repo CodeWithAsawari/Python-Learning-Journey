@@ -30,3 +30,17 @@ Marks_oF_DM = int(input("Enter DM marks: "))
 
 print(f"My name is {Student_name} from {Student_dept} department having roll no {Student_rollNo} and Aadhar no {Student_adharNo}. Marks are: OS={Marks_oF_OS}, Python={Marks_oF_PYTHON}, Data Analysis={Marks_oF_DATA_ANALYSIS}, DM={Marks_oF_DM}.")
 # using f string output will printed in 1 single line
+
+#Task 4
+Marks = int(input("Enter Marks: "))
+print(f"Marks : {Marks}")
+if Marks >= 80: # if is used for checking the condition
+    print("Grade A")
+elif Marks >= 65: # if not satisfied then elif condition will check
+    print("Grade B")
+elif Marks >= 50:
+    print("Grade C")
+elif Marks >= 35:
+    print("Pass")
+else: # at the last condition this will be printed
+    print("Fail")
