@@ -44,3 +44,27 @@ elif Marks >= 35:
     print("Pass")
 else: # at the last condition this will be printed
     print("Fail")
+#Task 5
+Marks = int (input("Enter Marks: "))
+Attendance = int (input("Enter Attendance % : "))
+if Marks >=90:
+    if Attendance >= 75:
+        print("Eligible for full scholarship")
+elif Marks >=75:
+    if Attendance >= 75:
+        print("Eligible for partial scholarship")
+elif Marks >=50:
+    if Attendance<75:
+        print("Not Eligible for scholarship")
+else:
+    print("Fail")
+#Task 6
+num = int(input("Enter a number: "))
+if num % 3 == 0 and num % 5 == 0:
+    print("FizzBuzz")
+elif num %3==0:
+    print("Fizz")
+    if num %5==0:
+     print("Buzz")
+else:
+    print(num)
