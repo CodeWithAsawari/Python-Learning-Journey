@@ -97,5 +97,31 @@ elif Marks >=50:
         print("Not Eligible for scholarship")
 else:
     print("Fail")
+    
+# Task 10
+num = int(input("Enter a number: "))
+if num%3==0 or num%5==0:
+    if num%3==0 and num%5==0:
+        print("FizzBuzz")
+    elif num%5==0:
+        print("Buzz")
+    else:
+        print("Fizz")
+else:
+    print(num)
 
+# Task 11
+for num in range(51,250):
+    if num%2!=0:
+        continue
+    print(num)
+
+# Task 12
+n = int(input("Enter a number:"))
+i=2
+total=0
+while i<=n:
+     total+=i
+     i+=2
+     print("sum of even numbers:",total)
 
