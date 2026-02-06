@@ -68,3 +68,60 @@ elif num %3==0:
      print("Buzz")
 else:
     print(num)
+# Task7
+Marks = int(input("Enter Marks: "))
+print(f"Marks : {Marks}")
+if Marks >= 80: # if is used for checking the condition
+    print("Grade A")
+elif Marks >= 65: # if not satisfied then elif condition will check
+    print("Grade B")
+elif Marks >= 50:
+    print("Grade C")
+elif Marks >= 35:
+    print("Pass")
+else: # at the last condition this will be printed
+    print("Fail")
+
+# Task8
+#Task 9
+Marks = int (input("Enter Marks: "))
+Attendance = int (input("Enter Attendance % : "))
+if Marks >=90:
+    if Attendance >= 75:
+        print("Eligible for full scholarship")
+elif Marks >=75:
+    if Attendance >= 75:
+        print("Eligible for partial scholarship")
+elif Marks >=50:
+    if Attendance<75:
+        print("Not Eligible for scholarship")
+else:
+    print("Fail")
+    
+# Task 10
+num = int(input("Enter a number: "))
+if num%3==0 or num%5==0:
+    if num%3==0 and num%5==0:
+        print("FizzBuzz")
+    elif num%5==0:
+        print("Buzz")
+    else:
+        print("Fizz")
+else:
+    print(num)
+
+# Task 11
+for num in range(51,250):
+    if num%2!=0:
+        continue
+    print(num)
+
+# Task 12
+n = int(input("Enter a number:"))
+i=2
+total=0
+while i<=n:
+     total+=i
+     i+=2
+     print("sum of even numbers:",total)
+
