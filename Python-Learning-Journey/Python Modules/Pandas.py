@@ -21,11 +21,7 @@ print(b)
 #Pandas as pd
 #Pandas is usually imported under the pd alias.
 
-import pandas as pd
-a ={'name':["Asawari","Sanjay"],
-    'Marks':[99,100]}
-b = pd.DataFrame(a)
-print(b)
+
 
 #Checking Pandas Version
 import pandas as pd
@@ -76,3 +72,21 @@ a = {
 }
 b = pandas.DataFrame(a)
 print(b)
+
+#Locate Row
+#Pandas use the loc attribute to return one or more specified row(s)
+import pandas
+a = {
+    'Names': ["Asawari", "Sanjay", "Shraddha"],
+    'Marks': [99, 100, 99]
+}
+b = pandas.DataFrame(a)
+print(b.loc[0])
+
+#Load Files Into a DataFrame
+#If your data sets are stored in a file, Pandas can load them into a DataFrame.
+'''
+import pandas as pd
+df=pd.read_csv('data.csv')
+print(df)'''
+
