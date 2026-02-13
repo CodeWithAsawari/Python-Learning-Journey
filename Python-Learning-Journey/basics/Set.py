@@ -38,3 +38,12 @@ print(a)
 #You cannot access items in a set by referring to an index or a key.
 
 #Add Items
+#To add one item to a set use the add() method
+a={"Asawari","Sanjay"}
+a.add("Shraddha")
+print(a)
+#To add items from another set into the current set, use the update() method.
+a={"Asawari","Sanjay"}
+b={"Shraddha","Prajkta"}
+a.update(b)
+print(a)
