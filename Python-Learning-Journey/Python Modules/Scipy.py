@@ -30,3 +30,6 @@ The version string is stored under the __version__ attribute."""
 import scipy
 print(scipy.__version__)
 
+#Constants in SciPy
+from scipy import constants
+print(constants.pi)
