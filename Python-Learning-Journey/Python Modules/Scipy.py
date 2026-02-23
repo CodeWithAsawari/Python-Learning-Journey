@@ -111,3 +111,12 @@ print(constants.carat)       #0.0002
 print(constants.atomic_mass) #1.66053904e-27
 print(constants.m_u)         #1.66053904e-27
 print(constants.u)           #1.66053904e-27
+"""Angle:
+Return the specified unit in radians (e.g. degree returns 0.017453292519943295)"""
+from scipy import constants
+
+print(constants.degree)     #0.017453292519943295
+print(constants.arcmin)     #0.0002908882086657216
+print(constants.arcminute)  #0.0002908882086657216
+print(constants.arcsec)     #4.84813681109536e-06
+print(constants.arcsecond)  #4.84813681109536e-06
