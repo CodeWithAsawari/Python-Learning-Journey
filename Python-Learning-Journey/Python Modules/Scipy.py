@@ -197,3 +197,11 @@ print(constants.mph)            #0.44703999999999994
 print(constants.mach)           #340.5
 print(constants.speed_of_sound) #340.5
 print(constants.knot)           #0.5144444444444445
+
+"""Temperature:
+Return the specified unit in Kelvin (e.g. zero_Celsiusreturns 273.15)"""
+from scipy import constants
+
+print(constants.zero_Celsius)      #273.15
+print(constants.degree_Fahrenheit) #0.5555555555555556
+
