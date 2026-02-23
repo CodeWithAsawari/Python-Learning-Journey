@@ -164,3 +164,11 @@ print(constants.bar)         #100000.0
 print(constants.torr)        #133.32236842105263
 print(constants.mmHg)        #133.32236842105263
 print(constants.psi)         #6894.757293168361
+
+"""Area:
+Return the specified unit in square meters(e.g. hectare returns 10000.0)"""
+
+from scipy import constants
+
+print(constants.hectare) #10000.0
+print(constants.acre)    #4046.856422399999
