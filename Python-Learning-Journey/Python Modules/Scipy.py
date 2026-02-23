@@ -153,3 +153,14 @@ print(constants.au)                #149597870691.0
 print(constants.astronomical_unit) #149597870691.0
 print(constants.light_year)        #9460730472580800.0
 print(constants.parsec)            #3.0856775813057292e+16
+
+"""Pressure:
+Return the specified unit in pascals (e.g. psi returns 6894.757293168361)"""
+from scipy import constants
+
+print(constants.atm)         #101325.0
+print(constants.atmosphere)  #101325.0
+print(constants.bar)         #100000.0
+print(constants.torr)        #133.32236842105263
+print(constants.mmHg)        #133.32236842105263
+print(constants.psi)         #6894.757293168361
