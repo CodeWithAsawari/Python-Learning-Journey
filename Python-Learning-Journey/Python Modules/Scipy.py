@@ -120,3 +120,14 @@ print(constants.arcmin)     #0.0002908882086657216
 print(constants.arcminute)  #0.0002908882086657216
 print(constants.arcsec)     #4.84813681109536e-06
 print(constants.arcsecond)  #4.84813681109536e-06
+
+"""Time:
+Return the specified unit in seconds (e.g. hour returns 3600.0)"""
+from scipy import constants
+
+print(constants.minute)      #60.0
+print(constants.hour)        #3600.0
+print(constants.day)         #86400.0
+print(constants.week)        #604800.0
+print(constants.year)        #31536000.0
+print(constants.Julian_year) #31557600.0
