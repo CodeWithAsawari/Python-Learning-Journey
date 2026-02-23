@@ -219,3 +219,20 @@ print(constants.Btu)           #1055.05585262
 print(constants.Btu_IT)        #1055.05585262
 print(constants.Btu_th)        #1054.3502644888888
 print(constants.ton_TNT)       #4184000000.0
+
+"""Power:
+Return the specified unit in watts (e.g. horsepower returns 745.6998715822701)"""
+from scipy import constants
+
+print(constants.hp)         #745.6998715822701
+print(constants.horsepower) #745.6998715822701
+"""Force:
+Return the specified unit in newton (e.g. kilogram_force returns 9.80665)"""
+from scipy import constants
+
+print(constants.dyn)             #1e-05
+print(constants.dyne)            #1e-05
+print(constants.lbf)             #4.4482216152605
+print(constants.pound_force)     #4.4482216152605
+print(constants.kgf)             #9.80665
+print(constants.kilogram_force)  #9.80665
